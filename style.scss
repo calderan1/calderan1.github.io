@@ -21,7 +21,7 @@ body{
 	background-image: url("http://goldwallpapers.com/uploads/posts/paisley-wallpapers/paisley_wallpapers_019.jpg");
 	
   font: 18px/1.4 $helvetica;
-  color: white;
+  color: $white;
 }
 
 .container {
@@ -33,7 +33,7 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: white;
+  color: $white;
   font-weight: bold;
 
   line-height: 1.7;
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: white;
+    color:$white;
   }
 }
 
@@ -62,7 +62,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: white;
+  color: $white;
 }
 
 p {
@@ -70,11 +70,11 @@ p {
 }
 
 a {
-  color: white;
+  color: $white;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: white;
+    color: $white;
   }
 }
 
@@ -118,16 +118,16 @@ img {
 
 .date {
   font-style: italic;
-  color: white;
+  color: $white;
 }
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: white;
+  color: $white;
   background: $lightGray;
 }
 ::selection {
-  color: white;
+  color: $white;
   background: $lightGray;
 }
 
@@ -190,7 +190,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: white;
+  color: $white;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -200,7 +200,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: white;
+  color: $white;
   font-size: 16px;
 
   @include mobile {
@@ -223,14 +223,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: white;
+    color: $white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: white;
+      color: $white;
     }
   }
 }
@@ -254,7 +254,7 @@ nav {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
-    color: white;
+    color: $white;
     font-size: 22px;
     font-style: italic;
   }
