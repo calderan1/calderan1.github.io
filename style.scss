@@ -83,7 +83,7 @@ a {
 ul, ol {
   margin: 15px 200px;
   padding-left: 30px;
-  width: 300px;
+  width: 500px;
 }
 
 ul {
@@ -95,7 +95,7 @@ ol {
 }
 
 ol ul, ul ol, ul ul, ol ol {
-  margin: 100px;
+  margin: 40px;
 }
 
 ul ul, ol ul {
@@ -185,6 +185,7 @@ img {
 
 .site-info {
   float: none;
+  width: 150px; 
 
   @include mobile {
     float: none;
@@ -209,11 +210,11 @@ img {
   margin: -5px 0 0 0;
   color: $white;
   font-size: 16px;
-  width: 400px; 
+  width: 550px; 
 
   @include mobile {
     margin: 3px 0;
-    width: 400px; 
+    width: 550px; 
   }
 }
 
@@ -236,12 +237,12 @@ nav {
     text-align: left;
     font-weight: 300;
     letter-spacing: 1px;
-    width: 300px; 
+    width: 500px; 
 
     @include mobile {
       margin: 50px 10px;
       color: $white;
-      width: 300px; 
+      width: 500px; 
     }
   }
 }
@@ -253,13 +254,13 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
-  width: 400px; 
+  width: 500px; 
 }
 
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
-  width: 400px; 
+  width: 500px; 
 }
 
 .post {
@@ -270,7 +271,7 @@ nav {
     color: $white;
     font-size: 22px;
     font-style: italic;
-    width: 400px; 
+    width: 500px; 
   }
 
   .comments {
@@ -286,7 +287,7 @@ nav {
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 3px solid #ddd;
 }
 
 footer {
