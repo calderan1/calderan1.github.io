@@ -35,7 +35,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: #f2f2f2;
   font-weight: bold;
-  background-color: $lightblue;
 
   line-height: 1.7;
   margin: 20px 20px;
@@ -68,7 +67,7 @@ h4 {
 
 p {
   margin: 50px 50px;
-  width: 100px; 
+  width: 500px; 
 }
 
 a {
@@ -96,7 +95,7 @@ ol {
 }
 
 ol ul, ul ol, ul ul, ol ol {
-  margin: 10;
+  margin: 100px;
 }
 
 ul ul, ol ul {
@@ -176,7 +175,7 @@ img {
   @include mobile {
     float: none;
     display: inline;
-    margin: 20 20;
+    margin: 20px 20px;
   }
 
   img {
@@ -190,7 +189,7 @@ img {
   @include mobile {
     float: none;
     display: inline;
-    margin: 0 auto;
+    margin: 20px 20px;
     width: 150px; 
   }
 }
@@ -242,7 +241,7 @@ nav {
     @include mobile {
       margin: 50px 10px;
       color: $white;
-      width: 100px; 
+      width: 300px; 
     }
   }
 }
@@ -254,7 +253,7 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
-  width: 100px; 
+  width: 200px; 
 }
 
 .posts > .post:last-child {
