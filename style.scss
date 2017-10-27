@@ -254,6 +254,7 @@ nav {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
   width: 100px; 
+  background-color: $lightblue;
 }
 
 .posts > .post:last-child {
@@ -270,7 +271,6 @@ nav {
     font-size: 22px;
     font-style: italic;
     width: 100px; 
-	  background-color: $lightblue;
   }
 
   .comments {
