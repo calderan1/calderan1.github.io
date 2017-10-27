@@ -76,7 +76,8 @@ a {
 	cursor: pointer;
   &:hover, &:active {
     color: #f2f2f2;
-    width: 400px; 
+    width: 200px; 
+    background-color: $lightblue;
   }
 }
 
@@ -242,6 +243,7 @@ nav {
       margin: 50px 10px;
       color: $white;
       width: 100px; 
+      background-color: $lightblue;
     }
   }
 }
@@ -254,7 +256,6 @@ nav {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
   width: 100px; 
-  background-color: $lightblue;
 }
 
 .posts > .post:last-child {
@@ -287,7 +288,6 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
 }
 
 footer {
