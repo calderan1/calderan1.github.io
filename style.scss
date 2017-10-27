@@ -168,9 +168,9 @@ img {
   margin-right: 15px;
 
   @include mobile {
-    float: left;
+    float: none;
     display: inline;
-    margin: 100 20;
+    margin: 20 20;
   }
 
   img {
