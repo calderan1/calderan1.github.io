@@ -76,6 +76,7 @@ a {
 	cursor: pointer;
   &:hover, &:active {
     color: #f2f2f2;
+    width: 100px; 
   }
 }
 
@@ -152,6 +153,7 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 0px;
+  width: 100px; 
 }
 
 .masthead {
@@ -234,7 +236,7 @@ nav {
     text-align: left;
     font-weight: 300;
     letter-spacing: 1px;
-    width: 100px; 
+    width: 300px; 
 
     @include mobile {
       margin: 50px 10px;
