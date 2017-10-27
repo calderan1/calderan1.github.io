@@ -229,7 +229,7 @@ nav {
     letter-spacing: 1px;
 
     @include mobile {
-      margin: 0 10px;
+      margin: 50px 10px;
       color: $white;
     }
   }
@@ -251,7 +251,7 @@ nav {
 
 .post {
   blockquote {
-    margin: 1.8em 1.8em;
+    margin: 18px 18px;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $white;
