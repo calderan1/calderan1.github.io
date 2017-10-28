@@ -69,7 +69,7 @@ h4 {
 // Used to format site text
 p {
   margin: 50px 50px;
-  width: 1000px; 
+  width: 100%; 
   background-color: #008080;
 }
 
@@ -222,7 +222,7 @@ th {
   margin: -5px 0 0 0;
   color: $white;
   font-size: 16px;
-  width: 550px; 
+  width: 800px; 
 
   @include mobile {
     margin: 3px 0;
