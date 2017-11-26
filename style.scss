@@ -65,7 +65,14 @@ h4 {
   font-size: 18px;
   color: #f2f2f2;
 }
+table {
+    width: 100%;
+}
 
+th {
+    height: 50px;
+    text-align: left;
+}
 // Used to format site text
 p {
   margin: 50px 50px;
@@ -117,14 +124,7 @@ img {
   max-width: 100%;
 }
 // Table Layout, does not seem to work
-table {
-    width: 100%;
-}
 
-th {
-    height: 50px;
-    text-align: left;
-}
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
