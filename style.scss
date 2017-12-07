@@ -68,6 +68,13 @@ h4 {
 table {
     width: 100%;
 }
+table {
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 1px solid black;
+}
 
 th {
     height: 50px;
