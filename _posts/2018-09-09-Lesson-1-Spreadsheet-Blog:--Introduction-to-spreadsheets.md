@@ -6,6 +6,8 @@ permalink: /lesson-1-spreadsheet-blog:--introduction-to-spreadsheets/
 source-id: 19XWHPZWyutUka4txGc170QSXlYQld6YxBOMOuGckuBc
 published: true
 ---
+Lesson 1 Spreadsheet Blog:  Introduction to spreadsheets
+
 <table>
   <tr>
     <td>Lesson 1 Spreadsheet Blog:  Introduction to spreadsheets  </td>
