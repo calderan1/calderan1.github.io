@@ -10,7 +10,7 @@ published: true
   <tr>
     <td>Title</td>
     <td>Lesson 1 Introduction to Spreadsheets</td>
-    <td>LessonDate</td>
+    <td>Lesson Date</td>
     <td>06/09/18</td>
   </tr>
 </table>
