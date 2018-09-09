@@ -8,7 +8,17 @@ published: true
 ---
 <table>
   <tr>
-    <td>Lesson 1 Spreadsheet Blog:  Introduction to spreadsheets  </td>
+    <td>Title</td>
+    <td>Lesson 1 Spreadsheet Blog:  Introduction to spreadsheets</td>
+    <td>Date</td>
+    <td>06/09/18</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td>Lesson 1 Spreadsheet Blog:  Introduction to spreadsheets </td>
   </tr>
   <tr>
     <td>Date of lesson:   6-9-18</td>
